@@ -1,0 +1,20 @@
+This file contains all components of 'nexignal' database.
+Schema: {
+    db: {
+        table: {
+            user,
+        },
+        extension: {
+            citext,
+            pgcrypto,
+        }
+        domain: {
+            e_domain
+        }
+        function: {
+            signup,
+            signin,
+        },
+    },
+    shell // temporary schema for testing
+}
